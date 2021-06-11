@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning | Yee Fan</title>
+    <link>https://yeefantan.github.io/tag/deep-learning/</link>
+      <atom:link href="https://yeefantan.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yeefantan.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Deep Learning</title>
+      <link>https://yeefantan.github.io/tag/deep-learning/</link>
+    </image>
+    
+    <item>
+      <title>Explainable Health Prediction from Facial Features using Transfer Learning</title>
+      <link>https://yeefantan.github.io/project/example/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://yeefantan.github.io/project/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Question Answering and Image Captioning</title>
+      <link>https://yeefantan.github.io/project/project4/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://yeefantan.github.io/project/project4/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
