@@ -7,7 +7,7 @@
     <description>Yee Fan</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yeefantan.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://yeefantan.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Yee Fan</title>
       <link>https://yeefantan.github.io/</link>
     </image>
@@ -37,7 +37,7 @@
       <link>https://yeefantan.github.io/post/my_journey_to_phd/</link>
       <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://yeefantan.github.io/post/my_journey_to_phd/</guid>
-      <description>&lt;p&gt;Hi there! This post is written to share my experience of getting a Ph.D. position at Monash University Malaysia. I hope this post helps! Basically, I graduated with first-class honors (3.97/4.0) from Multimedia University (MMU). Also, I have decided to undertake a research degree since the 2nd year of my study. Hence, I have involved myself in different research projects to gain experience. I wouldn&amp;rsquo;t share the entry requirements here, as this varies depending on the school. I will only be sharing my background and experience based on the application processes and interviews I encountered.&lt;/p&gt;
+      <description>&lt;p&gt;Hi there! This post is written to share my experience of getting a Ph.D. position at Monash University Malaysia. I hope this post helps! Basically, I graduated with first-class honors (3.97/4.0) from Multimedia University (MMU). Also, I have decided to undertake a research degree in the 2nd year of my study. Hence, I have involved myself in different research projects to gain experience. I wouldn&amp;rsquo;t share the entry requirements here, as this varies depending on the school. I will only be sharing my background and experience based on the application processes and interviews I encountered.&lt;/p&gt;
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;I consider myself very fortunate to have three papers published while applying for the research degree. I have two experimental papers and one review article published during my undergraduate time. All of the published papers are in Q2. I believe having research experience is the most important factor. Hence, if you are still in your early stage of the undergraduate program and considering undertaking a research degree, you can try to contact any lecturer and ask if they have positions for a research assistant. Also, this will help you to gain strong recommendation letters. These letters could be significant in affecting the application outcome.&lt;/p&gt;
 &lt;h2 id=&#34;research-title-consideration&#34;&gt;Research Title Consideration&lt;/h2&gt;
@@ -50,7 +50,7 @@
 &lt;p&gt;Perhaps, your school will have a separate round of scholarship interviews. I was nervous, indeed. Couldn’t give much suggestion on this. Familiarize yourself with your research area and strengths, and get prepared with some common scholarship/Ph.D. interview questions.&lt;/p&gt;
 &lt;h2 id=&#34;extra-words&#34;&gt;Extra words&lt;/h2&gt;
 &lt;p&gt;You could consider a direct Ph.D. entry if you hold a first-class honor in many countries (Malaysia/UK/Ireland etc). I also applied to some schools in the UK and Ireland and received interview invitations. I chose to stay in Malaysia as I think I have a pretty good research interest match with my current supervisor. I believe past research experience would be important for you to understand the topic better, find a potential supervisor, and secure your position at a school.&lt;/p&gt;
-&lt;p&gt;I understand applying for a research degree could be stressful, and I was very worried back then. I have waited for approximately four to five months to receive the offer letter. Advice: Just work on things that can strengthen your profile while waiting for the result. Good luck!&lt;/p&gt;
+&lt;p&gt;I understand applying for a research degree could be stressful, and I was very worried back then. I have waited for approximately three to four months to receive the offer letter. Advice: Just work on things that can strengthen your profile while waiting for the result. Good luck!&lt;/p&gt;
 </description>
     </item>
     
@@ -161,15 +161,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
