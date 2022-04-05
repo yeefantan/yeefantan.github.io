@@ -1,0 +1,14 @@
+@Article{app12041870,
+AUTHOR = {Tan, Yee Fan and Connie, Tee and Goh, Michael Kah Ong and Teoh, Andrew Beng Jin},
+TITLE = {A Pipeline Approach to Context-Aware Handwritten Text Recognition},
+JOURNAL = {Applied Sciences},
+VOLUME = {12},
+YEAR = {2022},
+NUMBER = {4},
+ARTICLE-NUMBER = {1870},
+URL = {https://www.mdpi.com/2076-3417/12/4/1870},
+ISSN = {2076-3417},
+ABSTRACT = {Despite concerted efforts towards handwritten text recognition, the automatic location and transcription of handwritten text remain a challenging task. Text detection and segmentation methods are often prone to errors, affecting the accuracy of the subsequent recognition procedure. In this paper, a pipeline that locates texts on a page and recognizes the text types, as well as the context of the texts within the detected region, is proposed. Clinical receipts are used as the subject of study. The proposed model is comprised of an object detection neural network that extracts text sequences present on the page regardless of size, orientation, and type (handwritten text, printed text, or non-text). After that, the text sequences are fed to a Residual Network with a Transformer (ResNet-101T) model to perform transcription. Next, the transcribed text sequences are analyzed using a Named Entity Recognition (NER) model to classify the text sequences into their corresponding contexts (e.g., name, address, prescription, and bill amount). In the proposed pipeline, all the processes are implicitly learned from data. Experiments performed on 500 self-collected clinical receipts containing 15,297 text segments reported a character error rate (CER) and word error rate (WER) of 7.77% and 10.77%, respectively.},
+DOI = {10.3390/app12041870}
+}
+
