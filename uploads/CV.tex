@@ -1,0 +1,313 @@
+\documentclass[a4,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeCGPAA}[1]{
+    \vspace{2pt}\\*
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textup{\footnotesize#1} 
+    \end{tabular*}\vspace{-14pt}
+}
+
+\newcommand{\resumeCGPA}[1]{
+    \vspace{2pt}\\*
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textup{\footnotesize#1} 
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{ \LARGE \scshape Tan Yee Fan} \\ \vspace{2pt}
+    \small +60-126561648 $|$ \href{mailto:yeefantan1999@gmail.com}{\underline{yeefantan1999@gmail.com}} 
+         \\ \vspace{2pt}
+    \small  
+    \href{https://linkedin.com/in/yeefan}{\underline{linkedin.com/in/yeefan}} $|$  \href{https://yeefantan.github.io}{\underline{https://yeefantan.github.io}} 
+\end{center}
+
+%-----------Research Interest-----------
+%\section{Research Interest}
+%  My research interests lie in applying AI in healthcare and medical imaging to improve clinical decision support systems. Also, I am interested in the general application of Machine Learning, Deep Learning, and Computer Vision.
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+  {Monash University}{Selangor, Malaysia}
+  {Doctor of Philosophy (Ph.D.)}{April 2022 -- Present}
+  \resumeCGPAA
+  { Supervisors: Assoc. Prof. Ting Chee Ming, Dr. Fuad Noman, Prof. Raphael Phan }
+    \resumeSubheading
+      {Multimedia University}{Melaka, Malaysia}
+      {Bachelor of  Computer Science (Hons) Artificial Intelligence}{November 2019 -- January 2022}
+    \resumeCGPAA
+    	{ CGPA: 3.97 / 4.0 }
+    \resumeSubheading
+      {Multimedia University}{Melaka, Malaysia}
+      {Diploma in Information Technology}{July 2017 -- October 2019}
+    \resumeCGPA
+    	{ CGPA: 4.0 / 4.0}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Research Assistant}{November -- December 2021}
+      {Monash University}{MY}
+      \resumeItemListStart
+        \resumeItem{Conducted a research on predicting individual differences in behavior based on brain connectivity networks under the supervision of Assoc. Prof. Ting Chee Ming}
+	\resumeItem{Conducted the literature review and experimental studies using CNN for brain disorders classification}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Undergraduate Research Assistant}{February -- August 2021}
+      {Multimedia University}{Melaka, MY}
+      \resumeItemListStart
+        \resumeItem{Conducted a research on predictive modelling for Digital Signage Advertising under the supervision of Dr. Ong Lee Yeng and Dr. Leow Meng Chew}
+        \resumeItem{Investigated different models for time-series forecasting, including Statistical, AI, and Hybrid models}
+	\resumeItem{Published a review paper, which introduced seven different models for dynamic pricing, proposed a framework for optimal model selection based on the data characteristics analysis}
+      \resumeItemListEnd
+      
+
+      \resumeSubheading
+      {Research Assistant}{October -- November 2020}
+      {Multimedia University}{Melaka, MY}
+      \resumeItemListStart
+        \resumeItem{Worked as a team under the supervision of Dr. Ong Lee Yeng and Dr. Leow Meng Chew}
+        \resumeItem{Applied web crawling and scraping techniques to gather useful data for experimental study}
+        \resumeItem{Designed the experiments which applied a rule-based system for DOOH dynamic pricing, by considering the importance of each independent variable using Machine Learning models}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Peer Tutor}{November 2018 -- March 2019}
+      {Multimedia University}{Melaka, MY}
+      \resumeItemListStart
+        \resumeItem{Held the tutor position for the subject of Mathematical Technique}
+        \resumeItem{In charge of preparing relevant materials and contents to conduct the tutorial section for the subject}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Research and Developmental Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Automatic Handwritten Text Recognition for Medical Application} $|$ \emph{Deep Learning}}{June 2020 -- September 2021}
+          \resumeItemListStart
+            \resumeItem{Final Year Project, supervised by Assoc. Prof. Dr. Tee Connie and Assoc. Prof. Dr. Goh Kah Ong Michael}
+            \resumeItem{Data collection: A different set of receipt templates were distributed to the public in acquiring different handwritten styles, obtained a sample size of 500}
+            \resumeItem{Applied various data pre-processing methods before training, including skew correction, line removal, line segmentation, and data augmentation}
+            \resumeItem{Proposed a framework to tackle the following problems: printed/handwritten text identification, OCR and HCR models, information classification model}
+            \resumeItem{Involved models: YOLOv5, Transformer, CNN, ResNet, LSTM, RNN, Bi-LSTM/RNN, NER}
+             \resumeItem{The proposed ResNet-101T has obtained an outstanding performance, with an WER and CER of 9.29 and 6.12}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Explainable Health Prediction with Transfer Learning} $|$ \emph{Deep Learning}}{June -- November 2020}
+          \resumeItemListStart
+            \resumeItem{A proposed research with aims to distinguish between healthy and sick faces, and to obtain explanation from black-box models, supervised by Assoc. Prof. Dr. Tee Connie}
+            \resumeItem{Various experiments were investigated to tackle the problems of insufficient dataset, including data augmentation, GAN, and Transfer Learning}
+            \resumeItem{A VGGFace model is trained, by applying transfer learning, achieved an accuracy of 0.97 in classifying the images}
+            \resumeItem{Applied various Explainable AI (XAI) techniques: LIME, XAI, IG to get model's explanation in making a decision, each techniques provides a reasonable explanation in highlighting the corresponding regions}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{AWS Hackathon Build On Malaysia (Finalist Top 50)} $|$ \emph{Python, Git, AWS}}{June -- September 2020}
+          \resumeItemListStart
+          \resumeItem{A hackathon held by Amazon Web Servies, our proposal was selected as Top 50 Finalist}
+            \resumeItem{Worked in a team to build a smart cane prototype for visually impaired group by integrating various AWS services, considering the safety and practicality from different aspects}
+            \resumeItem{Applied AWS services for tasks such as Object Recognition, Voice Recognition, Emergency Message, and others}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\textbf{Funtastic Event - Web-based Application} $|$ \emph{HTML/CSS, JS, PHP,  MySQL}}{April -- November 2019}
+          \resumeItemListStart
+            \resumeItem{Final Year Project of diploma, a full stack web-based application to enable users to hold an event through the platform}
+             \resumeItem{Grade received: A}
+          \resumeItemListEnd
+          
+\resumeSubHeadingListEnd
+
+
+\section{Publication}
+    \resumeSubHeadingListStart
+          \resumeProjectHeading
+          {\textbf{A Pipeline Approach to Context-Aware Handwritten Text Recognition}  \emph{}}{}
+          \resumeItem{Y. F. Tan., T. Connie, M. K. O. Goh., \& A. B. J. T. (2022). A Pipeline Approach to Context-Aware Handwritten Text Recognition. Applied Sciences, 12(4), 1870. https://doi.org/10.3390/app12041870.}\\
+          \resumeProjectHeading
+          {\textbf{Explainable Health Prediction based on Facial Features using Transfer Learning }  \emph{}}{}
+         \resumeItem{T. Connie, Y.F. Tan, M.K.O. Goh, H.W. Hon, Z. Kadim, L.P. Wong, Explainable health prediction from facial features with transfer learning, Journal of Intelligent \& Fuzzy Systems. Preprint (2021) 1–13. https://doi.org/10.3233/JIFS-211737.} \\ 
+                 \resumeProjectHeading
+          {\textbf{Exploring Time-Series Forecasting Models for Dynamic Pricing in Digital Signage Advertising}  \emph{}}{}
+          \resumeItem{Y.-F. Tan, L.-Y. Ong, M.-C. Leow, Y.-X. Goh, Exploring Time-Series Forecasting Models for Dynamic Pricing in Digital Signage Advertising, Future Internet. 13 (2021). https://doi.org/10.3390/fi13100241.}
+     
+\resumeSubHeadingListEnd
+
+          
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, Java, HTML/CSS, JavaScript, PHP, Laravel, MySQL, CLIPS, LISP, Prolog, LaTex} \\
+     \textbf{Developer Tools}{: Git, VS Code, Google Cloud Platform, Amazon Web Services} \\
+     \textbf{Operating System}{: Mac, Window} \\
+     \textbf{Office and Multimedia Tools}{: Microsoft Office, Adobe Illustrator, Adobe Premiere Pro} \\
+     \textbf{Linguistic}{: English, Mandarin, Bahasa Malaysia}
+    }}
+ \end{itemize}
+ 
+ %-----------Volunteer Experience-----------
+ \section{Volunteer Experience / Leadership}
+ \resumeSubHeadingListStart
+ \resumeProjectHeading
+ {\textbf{Orientation Series, CLS} $|$ \emph{Assistant Director, Creative and Design Division}}{January -- September 2019}
+ \resumeItemListStart
+ \resumeItem{In charge of multimedia designs for publicity in MMU, to promote the event held by CLS}
+ \resumeItem{Designed the member card of CLS for year 2019, with more than 1000 members registered}
+ \resumeItemListEnd
+ \resumeProjectHeading
+ {\textbf{Chinese Language Society} $|$ \emph{Director, Activity of Recreational Division}}{January -- November 2018}
+ \resumeItemListStart
+ \resumeItem{Led a group comprised of approximately 30 people to hold an event in the campus}
+ \resumeItem{In charge of tasks distribution and roles assignment to get works done with a higher efficiency}
+ \resumeItemListEnd  
+ \resumeSubHeadingListEnd
+ 
+ \section{Award / Certification}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Dean List Award}{: Received award in degree for five semesters and in diploma for six semesters at Multimedia University} \\
+     \textbf{Best Diploma Student in Information Technology}{: Received full scholarship for Bachelor Degree Studies} \\
+      \textbf{Huawei Certification}{: HCIA-AI} \\
+     \textbf{Data Science 360}{: A certification program from LEAD} \\
+
+    }}
+ \end{itemize}
+ 
+ \section{References}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Assoc. Prof. Dr. Tee Connie}  \hspace{1.2cm} \textbf{Dr. Ong Lee Yeng} \hspace{2.7cm} \textbf{Dr. Lim Kian Ming}\\
+     {Lecturer, FYP Supervisor, } \hspace{2.05cm} {Lecturer, Internship Supervisor, }\hspace{1.2cm} {Lecturer, Academic Advisor, }\\
+    {FIST, Multimedia University.} \hspace{1.65cm} {FIST, Multimedia University.} \hspace{1.45cm} {FIST, Multimedia University.} \\
+     {+606-2523592}\hspace{4.01cm} {+606-2523761}\hspace{3.85cm} {+606-2523066} \\
+     {tee.connie@mmu.edu.my} \hspace{2.4cm}  {lyong@mmu.edu.my}\hspace{3.05cm}  {kmlim@mmu.edu.my}
+    }}
+    
+ \end{itemize}
+ 
+
+ 
+
+
+
+%-------------------------------------------
+\end{document}
